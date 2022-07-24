@@ -1216,14 +1216,15 @@ label {
 
 .mfp-close {
   position: absolute;
+  z-index: 1100;
 }
 
 .mfp-close-btn-in .mfp-close {
   right: 25px;
   top: 10px;
   color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 51px;
 }
 
 ol {
