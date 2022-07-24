@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap&_v=20220724110923" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220724110923">
+    <title>Window</title>
+</head>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-inner">
+                <a href="#" class="logo">
+                    <img class="logo__img" src="img/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <div class="menu__btn"></div>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#services" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#product" class="menu__link">Продукция</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#standart" class="menu__link">О компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#portfolio" class="menu__link">Портфолио</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">Вопрос-ответ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="btn__box">
+
+                    <a class="popup-with-form btn1" href="#test-form">
+                        <img class="popup-with-form__img1" src="img/form1.svg" alt="">
+                        Заявка на замер
+                    </a>
+                    <a class="popup-with-form btn2" href="#test-form2">
+                        <img class="popup-with-form__img2" src="img/form2.svg" alt="">
+                        Заказать расчет
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__content">
+        <div class="container">
+            <div class="header__content-inner">
+                <div class="header__content-left">
+                    <div class="header__content-titlebox">
+                        <p class="header__content-subtitle">
+                            Окна Хаус -
+                        </p>
+                        <h1 class="header__content-title">
+                            Профессиональный подход
+                            к остеклению
+                        </h1>
+                    </div>
+                    <div class="header__content-info">
+                        <div class="header__content-item">
+                            <img class="header__info-img" src="img/content-1.svg" alt="">
+                            <p class="header__info-text">
+                                Современные окна
+                                и балконные конструкции
+                                по доступным ценам
+                            </p>
+                        </div>
+                        <div class="header__content-item">
+                            <img class="header__info-img" src="img/content-2.svg" alt="">
+                            <p class="header__info-text">
+                                Квалифицированный
+                                подход к решению задач
+                                любой сложности
+                            </p>
+                        </div>
+                        <div class="header__content-item">
+                            <img class="header__info-img" src="img/content-3.svg" alt="">
+                            <p class="header__info-text">
+                                Гарантия
+                                высочайшего качества
+                                нашей продукции
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <form class="header__content-form">
+                    <p class="header__form-title">
+                        Вызвать замершика на дом
+                    </p>
+                    <input class="header__content-input" type="text" placeholder="Представьтесь, пожалуйста">
+                    <input class="header__content-input" type="tel" placeholder="Номер телефона">
+                    <input class="header__content-input" type="email" placeholder="E-mail">
+                    <label class="header__content-label">
+                        <input class="header__content-checkbox" type="checkbox">
+                        Согласен на обработку персональных данных
+                        в соответствии с <a class="header__content-span">политикой конфиденциальности</a>
+                    </label>
+                    <button class="header__content-btn">Отправить заявку</button>
+                    <picture><source srcset="img/header-form.webp" type="image/webp"><img class="header__form-img" src="img/header-form.png" alt=""></picture>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<form id="test-form" class="form__call mfp-hide">
+    <h1 class="form__call-title">
+        <img class="form__call-img" src="img/form1.svg" alt="">
+        Вызвать замерщика на дом
+    </h1>
+    <fieldset style="border:0;">
+        <ol>
+            <li>
+                <input class="form__call-input" id="name" name="name" type="text" placeholder="Ваше имя" required="">
+            </li>
+            <li>
+                <input class="form__call-input" id="email" name="phone" type="tel" placeholder="Номер телефона"
+                    required="">
+            </li>
+            <li>
+                <input class="form__call-input" id="phone" name="email" type="email" placeholder="E-mail" required="">
+            </li>
+            <button class="form__call-btn">Отправить заявку</button>
+        </ol>
+    </fieldset>
+</form>
+<form id="test-form2" class="form__call2 mfp-hide">
+    <h1 class="form__call2-title">
+        <img class="form__call2-img" src="img/form2.svg" alt="">
+        Заказать расчет
+    </h1>
+    <fieldset style="border:0;">
+        <ol>
+            <li>
+                <input class="form__call-input" id="name" name="name" type="text" placeholder="Ваше имя" required="">
+            </li>
+            <li>
+
+                <input class="form__call-input" id="email" name="phone" type="tel" placeholder="Номер телефона"
+                    required="">
+            </li>
+            <li>
+
+                <input class="form__call-input" id="phone" name="email" type="email" placeholder="E-mail" required="">
+            </li>
+            <button class="form__call2-btn">Заказать расчет</button>
+        </ol>
+    </fieldset>
+</form>
+
+<section class="services" id="services">
+    <div class="container">
+        <h4 class="services__title">
+            Наши услуги
+        </h4>
+        <div class="services__inner">
+            <a class="services__inner-item" href="#window1">
+                <div class="services__item-top">
+                    <img src="img/services-1.svg" alt="" class="services__top-img">
+                    <p class="services__top-text">
+                        Установка
+                        пластиковых
+                        окон
+                    </p>
+                </div>
+                <div class="services__item-bottom">
+                    <p class="services__bottom-text">
+                        Устанавливаем пластиковые окна Rehau
+                        от проверенного производителя
+                        с
+                        гарантией качества
+                    </p>
+                    <img src="img/services__arrow.svg" alt="" class="services__bottom-img">
+                </div>
+            </a>
+            <a class="services__inner-item2" href="#window2">
+                <div class="services__item2-top">
+                    <img src="img/services-2.svg" alt="" class="services__top-img">
+                    <p class="services__top-text2">
+                        Остекление балконов
+                        и лоджий
+                    </p>
+                </div>
+                <div class="services__item2-bottom">
+                    <p class="services__bottom-text2">
+                        Занимаемся остеклением и отделкой
+                        балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные
+                        объекты
+                    </p>
+                    <img src="img/services__arrow.svg" alt="" class="services__bottom-img">
+                </div>
+            </a>
+            <a class="services__inner-item3" href="#window3">
+                <div class="services__item3-top">
+                    <img src="img/services-3.svg" alt="" class="services__top-img">
+                    <p class="services__top-text3">
+                        Остекление
+                        коттеджей и дач
+                    </p>
+                </div>
+                <div class="services__item3-bottom">
+                    <p class="services__bottom-text3">
+                        Остекление и отделка под ключ:
+                        от коттеджей и дач до террас
+                        и беседок. Выделяем личного
+                        технолога под каждый объект
+                    </p>
+                    <img src="img/services__arrow.svg" alt="" class="services__bottom-img">
+                </div>
+            </a>
+            <a class="services__inner-item4" href="#window4">
+                <div class="services__item4-top">
+                    <img src="img/services-4.svg" alt="" class="services__top-img">
+                    <p class="services__top-text4">
+                        Остекление
+                        корпоративных объектов
+                    </p>
+                </div>
+                <div class="services__item4-bottom">
+                    <p class="services__bottom-text4">
+                        Реализуем сложные проекты
+                        по остеклению торговых центров,
+                        ресторанов, производственных помещений
+                        и офисов
+                    </p>
+                    <img src="img/services__arrow.svg" alt="" class="services__bottom-img">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="product" id="product">
+    <div class="container">
+        <h4 class="product__title">
+            Продукция
+        </h4>
+        <div class="product__slider">
+                <div class="product__slider-item" id="slider1">
+                    <picture><source srcset="img/slider-1.webp" type="image/webp"><img src="img/slider-1.png" alt="" class="product__slider-img"></picture>
+                    <div class="product__slider-content">
+                        <h4 class="product__slider-title">
+                            Rehau Blitz New
+                        </h4>
+                        <p class="product__slider-text">
+                            Сохраняют тепло в доме, защищают от шума
+                            и вписываются в любой интерьер.
+                            Практичный выбор
+                        </p>
+                        <ul class="product__slider-list">
+                            <li class="product__slider-link">
+                                Системная глубина ...............................................60/60 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Ширина стеклопакета...........................................24/31 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Воздушные камеры...............................................3
+                            </li>
+                            <li class="product__slider-link">
+                                Теплосопротивление............................................0,70 м2С/ВТ
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product__slider-item">
+                    <picture><source srcset="img/slider-1.webp" type="image/webp"><img src="img/slider-1.png" alt="" class="product__slider-img"></picture>
+                    <div class="product__slider-content">
+                        <h4 class="product__slider-title">
+                            Rehau Blitz New
+                        </h4>
+                        <p class="product__slider-text">
+                            Сохраняют тепло в доме, защищают от шума
+                            и вписываются в любой интерьер.
+                            Практичный выбор
+                        </p>
+                        <ul class="product__slider-list">
+                            <li class="product__slider-link">
+                                Системная глубина ...............................................60/60 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Ширина стеклопакета...........................................24/31 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Воздушные камеры...............................................3
+                            </li>
+                            <li class="product__slider-link">
+                                Теплосопротивление............................................0,70 м2С/ВТ
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product__slider-item">
+                    <picture><source srcset="img/slider-1.webp" type="image/webp"><img src="img/slider-1.png" alt="" class="product__slider-img"></picture>
+                    <div class="product__slider-content">
+                        <h4 class="product__slider-title">
+                            Rehau Blitz New
+                        </h4>
+                        <p class="product__slider-text">
+                            Сохраняют тепло в доме, защищают от шума
+                            и вписываются в любой интерьер.
+                            Практичный выбор
+                        </p>
+                        <ul class="product__slider-list">
+                            <li class="product__slider-link">
+                                Системная глубина ...............................................60/60 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Ширина стеклопакета...........................................24/31 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Воздушные камеры...............................................3
+                            </li>
+                            <li class="product__slider-link">
+                                Теплосопротивление............................................0,70 м2С/ВТ
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product__slider-item">
+                    <picture><source srcset="img/slider-1.webp" type="image/webp"><img src="img/slider-1.png" alt="" class="product__slider-img"></picture>
+                    <div class="product__slider-content">
+                        <h4 class="product__slider-title">
+                            Rehau Blitz New
+                        </h4>
+                        <p class="product__slider-text">
+                            Сохраняют тепло в доме, защищают от шума
+                            и вписываются в любой интерьер.
+                            Практичный выбор
+                        </p>
+                        <ul class="product__slider-list">
+                            <li class="product__slider-link">
+                                Системная глубина ...............................................60/60 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Ширина стеклопакета...........................................24/31 мм
+                            </li>
+                            <li class="product__slider-link">
+                                Воздушные камеры...............................................3
+                            </li>
+                            <li class="product__slider-link">
+                                Теплосопротивление.............................0,70 м2С/ВТ
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="standart" id="standart">
+    <div class="container">
+
+        <div class="standart__inner">
+            <img src="img/standart-logo.svg" alt="" class="standart__logo">
+            <div class="standart__wrapper">
+                <div class="standart__inner-item">
+                    <img src="img/standart-1.svg" alt="" class="standart__item-img">
+                    <p class="standart__item-text1">
+                        Сертифицированный
+                        производитель Rehau
+                    </p>
+                </div>
+                <div class="standart__inner-item">
+                    <img src="img/standart-2.svg" alt="" class="standart__item-img">
+                    <p class="standart__item-text">
+                        Инновационный
+                        оконный завод
+                    </p>
+                </div>
+                <div class="standart__inner-item">
+                    <img src="img/standart-3.svg" alt="" class="standart__item-img">
+                    <p class="standart__item-text">
+                        Лидер по переработке
+                        профилей Rehau в России
+                    </p>
+                </div>
+                <div class="standart__inner-item">
+                    <img src="img/standart-4.svg" alt="" class="standart__item-img">
+                    <p class="standart__item-text">
+                        Высокотехнологичное
+                        автоматизированное
+                        оборудование
+                    </p>
+                </div>
+                <div class="standart__inner-item">
+                    <img src="img/standart-5.svg" alt="" class="standart__item-img">
+                    <p class="standart__item-text5">
+                        Широкий
+                        ассортимент
+                        продукции
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="standart__btn-box">
+            <a class="popup-with-form btn2 standart__btn" href="#test-form2">
+                <img class="popup-with-form__img2" src="img/form2.svg" alt="">
+                Заказать расчет
+            </a>
+        </div>
+    </div>
+</section>
+ <section class="about" id="about">
+    <div class="container">
+        <h4 class="about__title">
+            О компании
+        </h4>
+        <ul class="about__list">
+            <li class="about__item">
+                <a href="#" class="about__link">
+                    Описание
+                </a>
+            </li>
+            <li class="about__item">
+                <a href="#how-popup" class="about__link">
+                    Как мы работаем
+                </a>
+            </li>
+            <li class="about__item reviews-popup">
+                <a href="#reviews" class="about__link">
+                    Отзывы
+                </a>
+            </li>
+            <li class="about__item sertificat-popup">
+                <a href="#sertificat" class="about__link">
+                    Сертификаты
+                </a>
+            </li>
+        </ul>
+        <div class="about__inner">
+            <div class="about__content">
+                <img src="img/logo.svg" alt="" class="about__content-logo">
+                <p class="about__content-text">
+                    Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его
+                    стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас
+                    очень важно, чтобы Вы сделали правильный выбор.
+                </p>
+            </div>
+            <a href="https://www.youtube.com/watch?v=jv6UYCWmmCw" class="about__content-video">
+                <picture><source srcset="img/about-video.webp" type="image/webp"><img class="about__video-img" src="img/about-video.png" alt=""></picture>
+            </a>
+        </div>
+        <div class="about__wrapper">
+            <div class="about__wrapper-item">
+                <img src="img/about-1.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        профессионализм
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        Бригада профессиональных
+                        мастеров по монтажу
+                        и обслуживанию
+                    </p>
+                </div>
+            </div>
+            <div class="about__wrapper-item">
+                <img src="img/about-2.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        Ценообразование
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        Лучшие цены на рынке
+                        пластиковых окон
+                    </p>
+                </div>
+            </div>
+            <div class="about__wrapper-item">
+                <img src="img/about-3.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        Мобильность
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        Заключение договора
+                        на дому
+                    </p>
+                </div>
+            </div>
+            <div class="about__wrapper-item">
+                <img src="img/about-4.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        Лояльность
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        99% клиентов рекомендуют
+                        нас своим друзьям
+                    </p>
+                </div>
+            </div>
+            <div class="about__wrapper-item">
+                <img src="img/about-5.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        Скорость
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        Короткие сроки
+                        установки изделий
+                    </p>
+                </div>
+            </div>
+            <div class="about__wrapper-item">
+                <img src="img/about-6.svg" alt="" class="about__wrapper-item--img">
+                <div class="about__wrapper-item--textbox">
+                    <p class="about__wrapper-item--title">
+                        Служба качества
+                    </p>
+                    <p class="about__wrapper-item--text">
+                        Безупречное качество
+                        и контроль изделий ПВХ
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="popup-with-form btn1 about__btn" href="#test-form">
+            <img class="popup-with-form__img1" src="img/form1.svg" alt="">
+            Оформить заявку на замер
+        </a>
+    </div>
+</section>
+
+<section class="how mfp-hide" id="how-popup">
+    <div class="container">
+        <h4 class="how__title">
+            Как мы работаем
+        </h4>
+        <div class="how__inner">
+            <div class="how__item">
+                <img src="img/how-1.svg" alt="" class="how__item-img">
+                <p class="how__item-title">
+                    Бесплатно приедем
+                </p>
+                <p class="how__item-text">
+                    Выезжаем бесплатно во все
+                    города Московской области
+                </p>
+            </div>
+            <div class="how__item">
+                <img src="img/how-2.svg" alt="" class="how__item-img">
+                <p class="how__item-title">
+                    Бесплатно приедем
+                </p>
+                <p class="how__item-text">
+                    Выезжаем бесплатно во все
+                    города Московской области
+                </p>
+            </div>
+            <div class="how__item">
+                <img src="img/how-3.svg" alt="" class="how__item-img">
+                <p class="how__item-title">
+                    Бесплатно приедем
+                </p>
+                <p class="how__item-text">
+                    Выезжаем бесплатно во все
+                    города Московской области
+                </p>
+            </div>
+            <div class="how__item">
+                <img src="img/how-4.svg" alt="" class="how__item-img">
+                <p class="how__item-title">
+                    Бесплатно приедем
+                </p>
+                <p class="how__item-text">
+                    Выезжаем бесплатно во все
+                    города Московской области
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="reviews mfp-hide" id="reviews">
+    <div class="reviews__slider">
+        <div class="reviews__slider-item">
+            <div class="reviews__item-top">
+                <p class="reviews__item-name">
+                    Раиса Михайлова
+                </p>
+                <p class="reviews__item-text">
+                    24.06.2021 Договор №12345
+                </p>
+            </div>
+            <p class="reviews__item-main">
+                Огромное СПАСИБО всей команде Дизайн-Окно! В июне 2021 заказывала переостекление + отделка
+                балкона первый раз и так все удачно - быстро, качественно. Все прошло отлично, в соответствии с
+                условиями договора. Замерщик приехал как оговорено без опозданий, произвел замер лазерным
+                уровнем, все подробно рассказал по профилю и комплектующим. Предоплата составила 20%, остаток -
+                по факту. Соотношение цена/качество в сравнении с конкурентами. Доставка точно в срок, за 3 дня
+                все установили. Итог - красивые окна. Будем зимой проверять на прочность :)
+
+                Большая благодарность за отлично проведённую работу! Замерщик по вызову пришёл быстро, всё
+                хорошо объяснил , окна пришли в соответствии со согласованной датой, поднятие в квартиру прошла
+                очень хорошо , монтажники справились со своей работой на отлично! Все прошло в позитиве,
+                соотношение цены и качества хорошее. Отличная команда! Спасибо!!!
+            </p>
+        </div>
+        <div class="reviews__slider-item">
+            <div class="reviews__item-top">
+                <p class="reviews__item-name">
+                    Раиса Михайлова
+                </p>
+                <p class="reviews__item-text">
+                    24.06.2021 Договор №12345
+                </p>
+            </div>
+            <p class="reviews__item-main">
+                Огромное СПАСИБО всей команде Дизайн-Окно! В июне 2021 заказывала переостекление + отделка
+                балкона первый раз и так все удачно - быстро, качественно. Все прошло отлично, в соответствии с
+                условиями договора. Замерщик приехал как оговорено без опозданий, произвел замер лазерным
+                уровнем, все подробно рассказал по профилю и комплектующим. Предоплата составила 20%, остаток -
+                по факту. Соотношение цена/качество в сравнении с конкурентами. Доставка точно в срок, за 3 дня
+                все установили. Итог - красивые окна. Будем зимой проверять на прочность :)
+
+                Большая благодарность за отлично проведённую работу! Замерщик по вызову пришёл быстро, всё
+                хорошо объяснил , окна пришли в соответствии со согласованной датой, поднятие в квартиру прошла
+                очень хорошо , монтажники справились со своей работой на отлично! Все прошло в позитиве,
+                соотношение цены и качества хорошее. Отличная команда! Спасибо!!!
+            </p>
+        </div>
+        <div class="reviews__slider-item">
+            <div class="reviews__item-top">
+                <p class="reviews__item-name">
+                    Раиса Михайлова
+                </p>
+                <p class="reviews__item-text">
+                    24.06.2021 Договор №12345
+                </p>
+            </div>
+            <p class="reviews__item-main">
+                Огромное СПАСИБО всей команде Дизайн-Окно! В июне 2021 заказывала переостекление + отделка
+                балкона первый раз и так все удачно - быстро, качественно. Все прошло отлично, в соответствии с
+                условиями договора. Замерщик приехал как оговорено без опозданий, произвел замер лазерным
+                уровнем, все подробно рассказал по профилю и комплектующим. Предоплата составила 20%, остаток -
+                по факту. Соотношение цена/качество в сравнении с конкурентами. Доставка точно в срок, за 3 дня
+                все установили. Итог - красивые окна. Будем зимой проверять на прочность :)
+
+                Большая благодарность за отлично проведённую работу! Замерщик по вызову пришёл быстро, всё
+                хорошо объяснил , окна пришли в соответствии со согласованной датой, поднятие в квартиру прошла
+                очень хорошо , монтажники справились со своей работой на отлично! Все прошло в позитиве,
+                соотношение цены и качества хорошее. Отличная команда! Спасибо!!!
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="sertificat mfp-hide" id="sertificat">
+    <div class="sertificat__inner">
+        <picture><source srcset="img/sertificat-1.webp" type="image/webp"><img class="sertificat__inner-img" src="img/sertificat-1.png" alt=""></picture>
+        <picture><source srcset="img/sertificat-2.webp" type="image/webp"><img class="sertificat__inner-img" src="img/sertificat-2.png" alt=""></picture>
+        <picture><source srcset="img/sertificat-3.webp" type="image/webp"><img class="sertificat__inner-img" src="img/sertificat-3.png" alt=""></picture>
+        <picture><source srcset="img/sertificat-4.webp" type="image/webp"><img class="sertificat__inner-img" src="img/sertificat-4.png" alt=""></picture>
+        <picture><source srcset="img/sertificat-5.webp" type="image/webp"><img class="sertificat__inner-img" src="img/sertificat-5.png" alt=""></picture>
+    </div>
+</div>
+
+
+
+
+ <section class="portfolio" id="portfolio">
+    <div class="container">
+        <h4 class="portfolio__title">
+            Портфолио
+        </h4>
+        <div class="portfolio__slider">
+            <picture><source srcset="img/portfolio-slider4.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider4.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider3.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider3.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider4.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider4.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider1.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider1.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider3.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider3.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider4.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider4.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider1.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider1.png" alt=""></picture>
+            <picture><source srcset="img/portfolio-slider4.webp" type="image/webp"><img class="portfolio__slider-img" src="img/portfolio-slider4.png" alt=""></picture>
+        </div>
+        <iframe class="portfolio__maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9145.569164496788!2d36.31751697153677!3d49.96657137336534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a4b5ad05797%3A0xe17f7fa5c47c28d5!2z0KHQutC70LDQtCAtINCc0LDQs9Cw0LfQuNC9INCc0LXQsdC10LvQuA!5e0!3m2!1sru!2sua!4v1658408655853!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h4 class="contacts__title">
+            Контакты
+        </h4>
+        <div class="contacts__inner">
+            <div class="contacts__content">
+                <p class="contacts__content-title">
+                    Бесплатная консультация:
+                </p>
+                <ul class="contacts__content-list">
+                    <li class="contacts__item">
+                        <img class="contacts__content-img" src="img/contacts-tel.svg" alt="">
+                        <a href="tel:380931235167" class="contacts__content-tel">+38-093-123-51-67</a>
+                    </li>
+                    <li class="contacts__item">
+                        <img class="contacts__content-img" src="img/contacts-locate.svg" alt="">
+                        <p class="contacts__content-locate">
+                            г.Харьков пр.Героев Харькова д.80 оф.300
+                        </p>
+                    </li>
+                    <li class="contacts__item">
+                        <img class="contacts__content-img" src="img/contacts-mail.svg" alt="">
+                        <a href="mailto:okna@haus.ua" class="contacts__content-mail">okna@haus.ua</a>
+                    </li>
+                </ul>
+                <p class="contacts__content-text">
+                    Установку должны выполнять только эксперты. Нам доверяют сотни семей.
+                    Узнайте поробнее, какие решения вам подходят.
+                    Вы можете приобрести недорогие товары
+                    при гарантированно
+                    высоком качестве.
+                </p>
+                <div class="contacts__content-socialbox">
+                    <a href="#" class="contacts__sociabox-link">
+                        <img class="contacts__social-img" src="img/contacts-social1.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__sociabox-link">
+                        <img class="contacts__social-img" src="img/contacts-social2.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__sociabox-link">
+                        <img class="contacts__social-img" src="img/contacts-social3.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__sociabox-link">
+                        <img class="contacts__social-img" src="img/contacts-social4.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__sociabox-link">
+                        <img class="contacts__social-img" src="img/contacts-social5.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <form class="contacts__form">
+                <h4 class="contacts__form-title">
+                    Остались вопросы?
+                </h4>
+                <input class="contacts__form-input" type="text" placeholder="Ваше имя">
+                <input class="contacts__form-input" type="email" placeholder="E-mail">
+                <textarea class="contacts__form-textarea">Ваш отзыв</textarea>
+                <button class="contacts__form-btn">Отправить сообщение</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__inner-left">
+                <a href="#" class="footer__inner-logo">
+                    <img class="footer__inner-img" src="img/footer-logo.svg" alt="">
+                </a>
+                <p class="footer__inner-text">
+                    © ООО “Окна Хаус”, 2011 - 2022
+                </p>
+            </div>
+            <div class="footer__inner-right">
+                <a href="#" class="footer__inner-item"> Политика кофиденциальности</a>
+                <a href="#" class="footer__inner-item">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="window1 mfp-hide" id="window1">
+    <div class="window1__inner">
+        <div class="window1__inner-top">
+            <picture><source srcset="img/window1-top.webp" type="image/webp"><img src="img/window1-top.png" alt="" class="window1__top-img"></picture>
+            <div class="window1__top-textbox">
+                <p class="window1__top-title">
+                    Установка пластиковых окон
+                </p>
+                <p class="window1__top-text">
+                    Пластиковые окна Rehau
+                    от проверенного производителя с
+                    гарантией качества
+                </p>
+            </div>
+        </div>
+        <div class="window1__inner-bottom">
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Пластиковые окна
+                    </p>
+                    <p class="window1__bottom-text">
+                        Использование ламинационных окон, ламинации в массе, 3д-ламинации,
+                        а также покраска окон.
+                    </p>
+                </div>
+            </div>
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Ламинация
+                    </p>
+                    <p class="window1__bottom-text">
+                        Пластиковые окна могут быть любого нужного вам цвета. Внутри и снаружи.
+                    </p>
+                </div>
+            </div>
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom3.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Подоконники
+                    </p>
+                    <p class="window1__bottom-text">
+                        Качественный подоконник не царапается, выдерживает большие нагрузки и будет служить вам долгие
+                        годы.
+                    </p>
+                </div>
+            </div>
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom4.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Цветные ручки
+                    </p>
+                    <p class="window1__bottom-text">
+                        Оригинальные оконные ручки подчеркнут дизайн окна. Подберем оптимальный цвет ручек в зависимости
+                        от цвета всей конструкции.
+                    </p>
+                </div>
+            </div>
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom5.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Проветриватели
+                    </p>
+                    <p class="window1__bottom-text">
+                        Постоянное обновление воздуха
+                        в комнате снижает риск аллергии, улучшает сон и благоприятно влияет
+                        на самочувствие.
+                    </p>
+                </div>
+            </div>
+            <div class="window1__bottom-item">
+                <img src="img/window1-bottom6.svg" alt="" class="window1__bottom-img">
+                <div class="window1__bottom-textbox">
+                    <p class="window1__bottom-title">
+                        Москитные сетки
+                    </p>
+                    <p class="window1__bottom-text">
+                        Нежеланные насекомые останутся
+                        на улице, а ваша кошка - в квартире. Устанавливаем сетки для пластиковых окон любых форм и
+                        размеров.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="window2 mfp-hide" id="window2">
+    <div class="window2__inner">
+        <div class="window2__inner-top">
+            <picture><source srcset="img/window2-top.webp" type="image/webp"><img src="img/window2-top.png" alt="" class="window2__top-img"></picture>
+            <div class="window2__top-textbox">
+                <p class="window2__top-title">
+                    Остекление балконов и лоджий
+                </p>
+                <p class="window2__top-text">
+                    Занимаемся остеклением и отделкой
+                    балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные
+                    объекты
+                </p>
+            </div>
+        </div>
+        <div class="window2__inner-bottom">
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Тёплое
+                        остекление
+                    </p>
+                    <p class="window2__bottom-text">
+                        Теплое остекление — возможность сделать из балкона или лоджии полноценное жилое помещение.
+                    </p>
+                </div>
+            </div>
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Холодное
+                        остекление
+                    </p>
+                    <p class="window2__bottom-text">
+                        Холодное остекление рекомендовано в случаях, когда балкон или лоджия используются для хранения
+                        вещей.
+                    </p>
+                </div>
+            </div>
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom3.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Панорамное
+                        остекление
+                    </p>
+                    <p class="window2__bottom-text">
+                        Остекление от пола до потолка, дающее максимальное естественное освещение
+                        и прекрасный обзор окрестностей.
+                    </p>
+                </div>
+            </div>
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom4.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Остекление
+                        с выносом
+                    </p>
+                    <p class="window2__bottom-text">
+                        Способ увеличения площади и объема балкона или лоджии.
+                    </p>
+                </div>
+            </div>
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom5.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Остекление с крышей
+                    </p>
+                    <p class="window2__bottom-text">
+                        Строительство крыши для домов
+                        с высоким потолком и квартир, расположенных на последних этажах.
+                    </p>
+                </div>
+            </div>
+            <div class="window2__bottom-item">
+                <img src="img/window1-bottom6.svg" alt="" class="window2__bottom-img">
+                <div class="window2__bottom-textbox">
+                    <p class="window2__bottom-title">
+                        Объединение
+                        с комнатой
+                    </p>
+                    <p class="window2__bottom-text">
+                        Перепланировка квартиры, дающая дополнительные метры полезной площади и улучшающая жилищные
+                        условия.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="window4 mfp-hide" id="window4">
+    <div class="window4__inner">
+        <div class="window4__inner-top">
+            <picture><source srcset="img/window4-top.webp" type="image/webp"><img src="img/window4-top.png" alt="" class="window4__top-img"></picture>
+            <div class="window4__top-textbox">
+                <p class="window4__top-title">
+                    Остекление корпоративных объектов
+                </p>
+                <p class="window4__top-text">
+                    Реализуем сложные проекты
+                    по остеклению торговых центров,
+                    ресторанов, производственных помещений и офисов
+                </p>
+            </div>
+        </div>
+        <div class="window4__inner-bottom">
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Многоквартирные дома
+                    </p>
+                    <p class="window4__bottom-text">
+                        Изготовление и монтаж окон ПВХ
+                        под ключ. Приглашаем к партнерству
+                        застройщиков
+                    </p>
+                </div>
+            </div>
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Офисные помещения
+                    </p>
+                    <p class="window4__bottom-text">
+                        Установка пластиковых окон,
+                        офисных перегородок и
+                        дверей и входных групп.
+                    </p>
+                </div>
+            </div>
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom3.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Социальные объекты
+                    </p>
+                    <p class="window4__bottom-text">
+                        Остекляем детские сады,
+                        школы, медицинские учреждения
+                    </p>
+                </div>
+            </div>
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom4.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Объекты торговли
+                    </p>
+                    <p class="window4__bottom-text">
+                        Способ увеличения площади и объема балкона или лоджии.
+                    </p>
+                </div>
+            </div>
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom5.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Спортивные объекты
+                    </p>
+                    <p class="window4__bottom-text">
+                        Остекляем спортивные залы,
+                        бассейны, крытые спорткомплексы
+                    </p>
+                </div>
+            </div>
+            <div class="window4__bottom-item">
+                <img src="img/window1-bottom6.svg" alt="" class="window4__bottom-img">
+                <div class="window4__bottom-textbox">
+                    <p class="window4__bottom-title">
+                        Производственные помещения
+                    </p>
+                    <p class="window4__bottom-text">
+                        Устанавливаем окна для складских
+                        и промышленных зданий в соответствии
+                        с требованиями бизнеса
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="window3 mfp-hide" id="window3">
+    <div class="window3__inner">
+        <div class="window3__inner-top">
+            <picture><source srcset="img/window3-top.webp" type="image/webp"><img src="img/window3-top.png" alt="" class="window3__top-img"></picture>
+            <div class="window3__top-textbox">
+                <p class="window3__top-title">
+                    Остекление коттеджей и дач
+                </p>
+                <p class="window3__top-text">
+                    Остекление и отделка под ключ:
+                    от коттеджей
+                    и дач до террас
+                    и беседок. Выделяем личного
+                    технолога под каждый объект.
+                </p>
+            </div>
+        </div>
+        <div class="window3__inner-bottom">
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Цветные окна
+                    </p>
+                    <p class="window3__bottom-text">
+                        Использование ламинационных окон, ламинации в массе, 3д-ламинации,
+                        а также покраска окон.
+                    </p>
+                </div>
+            </div>
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom1.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Фигурные окна
+                    </p>
+                    <p class="window3__bottom-text">
+                        Арочные окна, окна трапеции, треугольные окна, круглые и многоугольные окна
+                    </p>
+                </div>
+            </div>
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom3.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Алюминиевые конструкции
+                    </p>
+                    <p class="window3__bottom-text">
+                        Идеальный вариант для
+                        большой площади остекления:
+                        зимние сады, террасы и т.п..
+                    </p>
+                </div>
+            </div>
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom4.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Деревянные окна
+                    </p>
+                    <p class="window3__bottom-text">
+                        Экологичное и натуральное
+                        решение для остекления
+                        любого объекта.
+                    </p>
+                </div>
+            </div>
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom5.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Портальные решения
+                    </p>
+                    <p class="window3__bottom-text">
+                        Эксклюзивные дверные и балконные раздвижные
+                        конструкции для элитных квартир и респектабельных
+                        домов, обеспечивающие панорамный вид
+                        и экономящие пространство.
+                    </p>
+                </div>
+            </div>
+            <div class="window3__bottom-item">
+                <img src="img/window1-bottom6.svg" alt="" class="window3__bottom-img">
+                <div class="window3__bottom-textbox">
+                    <p class="window3__bottom-title">
+                        Рольставни и ворота
+                    </p>
+                    <p class="window3__bottom-text">
+                        Защитные рольставни
+                        для частных домов,
+                        роллетные ворота
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220724110923"></script>
+    <script src="magnific-popup/jquery.magnific-popup.js?_v=20220724110923"></script>
+    <script src="js/app.min.js?_v=20220724110923"></script>
+</body>
+
+</html>
