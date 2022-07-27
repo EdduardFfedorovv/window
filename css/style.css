@@ -1724,6 +1724,10 @@ ol {
   margin-bottom: 100px;
 }
 
+.img-spacial {
+  max-width: 120px;
+}
+
 .portfolio__title {
   font-weight: 700;
   font-size: 24px;
@@ -2980,6 +2984,16 @@ ol {
 
   .about__wrapper-item {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 805px) {
+  .img-spacial {
+    margin-left: -15px;
+  }
+
+  .img-responsive {
+    margin-left: 5px;
   }
 }
 
